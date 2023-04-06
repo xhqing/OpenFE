@@ -1,1 +1,4 @@
 build/
+examples/IEEE-CIS-Fraud-Detection/data/test_transaction.csv
+examples/IEEE-CIS-Fraud-Detection/data/train_transaction.csv
+

@@ -29,6 +29,8 @@ if __name__ == '__main__':
     print("The MSE before feature generation is", score)
     # feature generation
     ofe = openfe()
+    import pdb
+    pdb.set_trace()
     ofe.fit(data=train_x, label=train_y, n_jobs=n_jobs)
 
     # OpenFE recommends a list of new features. We include the top 10
